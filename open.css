@@ -58,11 +58,17 @@ body {
   right: 15px;
   bottom: 5px;
   top: 105px;
-
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   overflow: hidden;
-  font-size: 16px;
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  #letter {
+    font-size: 10px; /* Adjust font size for smaller screens */
+    top: 80px; /* Adjust top position for smaller screens */
+  }
 }
 h1 {
   padding-top: 12px;
