@@ -53,23 +53,18 @@ body {
   align-items: center;
   background-color: rgb(255, 255, 255);
   padding: 5px;
+  padding-left: 10px;
   z-index: 5;
   left: 15px;
   right: 15px;
   bottom: 5px;
   top: 105px;
+  /* font-size: 20px; */
+
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
     0px 1px 2px 0px rgba(0, 0, 0, 0.06);
   overflow: hidden;
-  font-size: 15px;
-}
-
-/* Media query for 5.5-inch screens (approximately 414px width) */
-@media only screen and (max-width: 414px) {
-  #letter {
-    font-size: 10px; /* Adjust font size for smaller screens */
-    top: 80px; /* Adjust top position for smaller screens */
-  }
+  font-size: 16px;
 }
 
 
